@@ -7,7 +7,7 @@ This repository includes the desktop application for the software described in t
 
 ## Prerequisites
 1. Any software that can extract .7z files (such as 7-zip, gzip, WinRar, WinZip, etc). If you do not have any software that can extract files, then you can download 7-zip from [here](https://www.7-zip.org/a/7z2401-x64.exe). 
-2. The application was created using [pyinstaller](https://pypi.org/project/pyinstaller/) and [PySide6](https://pypi.org/project/PySide6/). Therefore, a user's device will see it as a potentially unwanted program (or PUP). Turn off your antivirus, or exclude the application from being scanned by the antivirus to avoid it being deleted from your device or quarantined. 
+2. The application was created using [pyinstaller](https://pypi.org/project/pyinstaller/) and [PySide6](https://pypi.org/project/PySide6/). Therefore, a user's device will see it as a potentially unwanted program (or PUP). There are two options to get around this: first, you can exclude the application from being scanned by the antivirus to avoid it being deleted from your device or quarantined or you can turn off your antivirus. 
 3. This is a Windows specific application. Future versions will have Linux and MacOS compatible applications as well. 
 4. An OpenAI API key is required to use this application. A user can [create an account](https://platform.openai.com/login) with OpenAI, navigate to the [API key page](https://platform.openai.com/account/api-keys) and click on "Create new secret key", optionally naming the key. **Make sure to save this somewhere safe and do not share it with anyone.**
 
@@ -30,7 +30,7 @@ After extraction, the "SD Bot.exe" file will appear in your current folder.
 
 
 ## Instructions to exclude the application from antivirus
-Before running "SD Bot.exe", the user has to make sure that it is not flagged as a PUP as explained in the Prerequisites section. To do that, the user either has to turn the antivirus off, or exclude it from their antivirus scans. If you do not have an antivirus installed, Windows Defender may show you a warning such as this:
+Before running "SD Bot.exe", the user has to make sure that it is not flagged as a PUP as explained in the Prerequisites section. If you do not have an antivirus installed, Windows Defender may show you a warning such as this:
 
 <img src="./images/defender.png" alt="Windows Defender Warning" height=300px>
 
@@ -38,15 +38,6 @@ Go to More Info, and click on Run Anyway:
 
 <img src="./images/runanyway.png" alt="Windows Defender Run Anyway" height=300px>
 
-
-### Turn off your antivirus
-Step 1: **Look for the antivirus icon:** Typically, you can find the antivirus icon in the system tray (bottom right corner of your screen on Windows computers). It might look like a shield or another recognizable symbol.
-
-Step 2: **Right-click on the antivirus icon:** This should bring up a menu with various options. Look for an option like "Disable," "Turn off," or "Pause protection." It may also be under a submenu like "Protection" or "Real-time scanning."
-
-Step 3: **Select the appropriate option:** Click on the option that allows you to disable the antivirus protection.
-
-Step 4: **Re-enable the antivirus:** Once running "SD Bot.exe" is done, repeat the process but select the option to enable or turn on protection.
 
 ### Exclude SD Bot.exe from your antivirus
 To exclude a single .exe file from being scanned by your antivirus software, follow these general steps. Keep in mind that the exact process may vary depending on the antivirus program you're using:
@@ -58,6 +49,17 @@ Step 2: **Access the settings or preferences:** Once you've opened your antiviru
 Step 3: **Navigate to the exclusions or exceptions settings:** Within the settings or preferences menu, look for an option related to exclusions, exceptions, or exclusions list. This is where you can specify files, folders, or applications that you want to exclude from scans.
 
 Step 4: **Add SD Bot.exe file to the exclusion list:** In the exclusions or exceptions settings, there should be an option to add files or applications to the exclusion list. Click on this option, and then navigate to the location of the SD Bot.exe file. Select it and add it to the exclusion list. Ensure to save your changes within the antivirus settings.
+
+
+
+### Turn off your antivirus
+Step 1: **Look for the antivirus icon:** Typically, you can find the antivirus icon in the system tray (bottom right corner of your screen on Windows computers). It might look like a shield or another recognizable symbol.
+
+Step 2: **Right-click on the antivirus icon:** This should bring up a menu with various options. Look for an option like "Disable," "Turn off," or "Pause protection." It may also be under a submenu like "Protection" or "Real-time scanning."
+
+Step 3: **Select the appropriate option:** Click on the option that allows you to disable the antivirus protection.
+
+Step 4: **Re-enable the antivirus:** Once running "SD Bot.exe" is done, repeat the process but select the option to enable or turn on protection.
 
 
 ## Instructions to run SD Bot

@@ -20,7 +20,7 @@ Step 1: Navigate to [SD Bot folder](./SD%20Bot/) and locate the file named [SD B
 
 Step 2: Right click on this file, and from the popup menu, select "7zip" (or any other software listed in Prerequisites #1) and then "Extract Here". 
 
-<img src="./images/extract2.PNG" alt="Extraction Step 2" height=300px>
+<img src="./images/extract2.png" alt="Extraction Step 2" height=300px>
 
 After extraction, the "SD Bot.exe" file will appear in your current folder. 
 
@@ -28,11 +28,11 @@ After extraction, the "SD Bot.exe" file will appear in your current folder.
 ## Instructions to exclude the application from antivirus
 Before running "SD Bot.exe", the user has to make sure that it is not flagged as a PUP as explained in the Prerequisites section. To do that, the user either has to turn the antivirus off, or exclude it from their antivirus scans. If you do not have an antivirus installed, Windows Defender may show you a warning such as this:
 
-<img src="./images/defender.PNG" alt="Windows Defender Warning" height=300px>
+<img src="./images/defender.png" alt="Windows Defender Warning" height=300px>
 
 Go to More Info, and click on Run Anyway:
 
-<img src="./images/runanyway.PNG" alt="Windows Defender Run Anyway" height=300px>
+<img src="./images/runanyway.png" alt="Windows Defender Run Anyway" height=300px>
 
 
 ### Turn off your antivirus
@@ -69,7 +69,7 @@ Please provide your OpenAI API key in this dialog box and click on **Next**.
 Step 2: When you click on Next, you should see the following dialog box:
 
 <p align="center">
-    <img src="./images/configure.PNG" alt="Configure Options Window">
+    <img src="./images/configure.png" alt="Configure Options Window">
 </p>
 
 This window enables the user to customize the various options that define the execution of the SD Bot. The user can enter the text that they want analyzed for causal relationships in the text editor. The various options are explained below:

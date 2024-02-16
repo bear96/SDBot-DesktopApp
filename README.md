@@ -11,7 +11,7 @@ This repository includes the desktop application for the software described in t
 3. This is a Windows specific application. Future versions will have Linux and MacOS compatible applications as well. 
 4. An OpenAI API key is required to use this application. A user can [create an account](https://platform.openai.com/login) with OpenAI, navigate to the [API key page](https://platform.openai.com/account/api-keys) and click on "Create new secret key", optionally naming the key. **Make sure to save this somewhere safe and do not share it with anyone.**
 
-## Download this repository:
+## Download this repository
 You can download this repository as a ZIPfile by clicking on Code and then Download ZIP. Alternatively, if you have git installed, then you can clone this repository using:\
 ```git clone https://github.com/bear96/SDBot-DesktopApp.git```
 

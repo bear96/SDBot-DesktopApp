@@ -1,6 +1,6 @@
-# From Text to Diagram: A System Dynamics Bot for Causal Loop Construction
+# From Text to Map: A System Dynamics Bot for Construction of Causal Loop Diagrams
 
-This repository includes the desktop application for the software described in the paper: **From Text to Diagram: A System Dynamics Bot for Causal Loop Construction**
+This repository includes the desktop application for the software described in the paper: **From Text to Map: A System Dynamics Bot for Construction of Causal Loop Diagrams**
 
 >**Abstract:** We introduce and test the System Dynamics Bot, a computer program leveraging a large language model to automate the creation of causal loop diagrams from textual data. To evaluate its performance, we ensembled two distinct databases. The first dataset includes 20 causal loop diagrams and associated texts sourced from system dynamics literature. The second dataset comprises responses from 30 participants to the Lake Urmia Vignette, along with causal loop diagrams coded by three system dynamics modelers. The bot uses textual data and successfully identifies approximately sixty percent of the links between variables and feedback loops in both datasets. This paper outlines our approach, provides examples, and presents evaluation results.
 >We discuss encountered challenges and implemented solutions in developing the System Dynamics Bot. The Bot can facilitate extracting mental models from textual data and improve model building processes. Moreover, the two datasets can serve as a testbed for similar programs.

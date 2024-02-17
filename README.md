@@ -6,27 +6,13 @@ This repository includes the desktop application for the software described in t
 >We discuss encountered challenges and implemented solutions in developing the System Dynamics Bot. The Bot can facilitate extracting mental models from textual data and improve model building processes. Moreover, the two datasets can serve as a testbed for similar programs.
 
 ## Prerequisites
-1. Any software that can extract .7z files (such as 7-zip, gzip, WinRar, WinZip, etc). If you do not have any software that can extract files, then you can download 7-zip from [here](https://www.7-zip.org/a/7z2401-x64.exe). 
-2. The application was created using [pyinstaller](https://pypi.org/project/pyinstaller/) and [PySide6](https://pypi.org/project/PySide6/). Therefore, a user's device will see it as a potentially unwanted program (or PUP). There are two options to get around this: first, you can exclude the application from being scanned by the antivirus to avoid it being deleted from your device or quarantined or you can turn off your antivirus. 
-3. This is a Windows specific application. Future versions will have Linux and MacOS compatible applications as well. 
-4. An OpenAI API key is required to use this application. A user can [create an account](https://platform.openai.com/login) with OpenAI, navigate to the [API key page](https://platform.openai.com/account/api-keys) and click on "Create new secret key", optionally naming the key. Make sure that you have [GPT-4 access](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4), and **save your API key somewhere safe and do not share it with anyone.**
+1. Download the application "SD Bot.exe" from [Dropbox](https://www.dropbox.com/scl/fo/yrybbskl0offgou3nanzg/h?rlkey=hjiuz9u4vw52is8lz30lwjkf6&dl=0). The application was created using [pyinstaller](https://pypi.org/project/pyinstaller/) and [PySide6](https://pypi.org/project/PySide6/). Therefore, a user's device will see it as a potentially unwanted program (or PUP). There are two options to get around this: first, you can exclude the application from being scanned by the antivirus to avoid it being deleted from your device or quarantined or you can turn off your antivirus. 
+2. This is a Windows specific application. Future versions will have Linux and MacOS compatible applications as well. 
+3. An OpenAI API key is required to use this application. A user can [create an account](https://platform.openai.com/login) with OpenAI, navigate to the [API key page](https://platform.openai.com/account/api-keys) and click on "Create new secret key", optionally naming the key. Make sure that you have [GPT-4 access](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4), and **save your API key somewhere safe and do not share it with anyone.**
 
-## Download this repository
+## Downloading this repository
 You can download this repository as a ZIPfile by clicking on Code and then Download ZIP. Alternatively, if you have git installed, then you can clone this repository using:\
 ```git clone https://github.com/bear96/SDBot-DesktopApp.git```
-
-## Instructions for extracting SD Bot application
-Once you have this repository on your local device, you can go about running the application. The application has been compressed into 12 parts and stored in the folder [SD Bot](./SD%20Bot/). To extract this application you will need to follow the following steps:
-
-Step 1: Navigate to [SD Bot folder](./SD%20Bot/) and locate the file named [SD Bot.7z.001](SD%20Bot/SD%20Bot.7z.001).
-
-<img src="./images/extract1.PNG" alt="Extraction Step 1" height=200px>
-
-Step 2: Right click on this file, and from the popup menu, select "7zip" (or any other software listed in Prerequisites #1) and then "Extract Here". 
-
-<img src="./images/extract2.png" alt="Extraction Step 2" height=300px>
-
-After extraction, the "SD Bot.exe" file will appear in your current folder. 
 
 
 ## Instructions to exclude the application from antivirus

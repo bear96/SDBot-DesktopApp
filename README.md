@@ -94,3 +94,5 @@ If you have selected Diagram option from Select Diagram, you will be prompted to
 </p>
 
 **Once the final relationships/causal loop diagram is displayed, unfortunately there is no way of going back to the previous screen and trying out a different combination of inputs. Instead, the user has to close the application, and restart it by clicking on the "SD Bot.exe" once again. Please do not click the "Generate Relationships button again, as this may cause the program to crash. Subsequent versions will improve on this behavior.**
+
+If the application does not work as expected, please open an issue or email me at aritram21@vt.edu!
